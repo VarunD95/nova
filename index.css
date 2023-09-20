@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+   position:;
+}
+
+.navbar-brand{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50px;
+    
+
+}
+
+.navbar-nav{
+    
+   margin:  auto ;
+  
+    
+}
+.navbar .nav-item{
+    font-size: 20px;
+    color: rgb(88, 0, 0);
+    
+}
+/* ----------------------------head----------------------- */
+
+.mainhead{
+    background-image: url(./image/hero-bg.jpg);
+    background-attachment:fixed;
+    height: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover; 
+}
+ 
+
+
+/* #leftbox{
+    background-color: blue;
+    width: 40%;
+    height: 100vh;
+} */
+
+#content{
+    background-color: rgba(255, 255, 255, 0.524);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+#content h1,p{
+    margin: 20px;
+}
+#content h1{
+    color: rgb(0, 0, 102);
+    font-weight: 700;
+    font-size: 70px;
+}
+
+#content button{
+    padding: 15px;
+    background-color:rgb(0, 0, 102) ;
+    color: white;
+}
+/* --------------------------break-------------------------- */
+
+#break1{
+    margin-top: 100px;
+    text-align: center;
+  
+    
+    
+}
+.border{
+    border-bottom: 1px solid blue;
+    width: 300px;
+    margin: auto;
+    height: 2px;
+}
+/* ------------------------------second--------------------------- */
+
+#second{
+    margin-top: 100px;
+}
+
+#carousel{
+    margin: auto;
+    
+    
+}
+
+/* --------------------------------services-------------------------- */
+
+.h22{
+    font-size:25px;
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgb(224, 224, 224);
+}
+
+/* --------------------------------building------------------------------- */
+
+#building{
+    background-image:url(./image/building.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+#build-content{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#build-content button{
+    padding: 18px;
+    border-radius: 50px;
+    background-color:  rgb(0, 0, 102);
+    color: white;
+    border: none ;
+
+}
+#build-content h1 {
+    color: white;
+}
+#build-content p{
+    color: white;
+}
+
+/* --------------------------------------------mobile------------------------------------- */
+
+#iphone{
+    width: 100%;
+    height: 90vh;
+}
+
+#mobile{
+    margin-top: 100px;
+    
+}
+
+#head h1{
+     padding: 20px;
+
+}
+#block1 li{
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+#iphone{
+   position: relative;
+   top: 120px;
+   
+}
+@media screen and (max-width:768px) {
+    #iphone{
+       width: 200px;
+       height: 50vh;
+       
+       position: relative;
+       top: -30px;
+       left: 50px;
+       
+    }
+}
+
+
+/* -------------------------------------head-------------------------------- */
+
+#head2{
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    background-color: rgb(231, 231, 231);
+}
+#headinfo{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#headinfo button{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 102);
+    border: none;
+    color: white;
+}
+/* -------------------------------------------cards-------------------------------------------- */
+
+
+#card-row{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer{
+    background-color:  rgb(0, 0, 102);
+    color: white;
+    
+}
+#foothead{
+    padding: 10px;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+}
